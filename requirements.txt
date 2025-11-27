@@ -1,2 +1,2 @@
-# Requirements
-# Placeholder: Add transformers, fastapi, uvicorn, chromadb, etc.
+gradio>=3.40
+loguru
