@@ -1,27 +1,27 @@
-Multi-Agent Enterprise Customer Support Triage Bot
+**Multi-Agent Enterprise Customer Support Triage Bot**
 A Gemini-powered AI system for automated ticket classification, drafting, routing, and evaluation
 This project implements a full multi-agent architecture designed to automate enterprise customer support workflows. Built with Google Gemini, the system classifies incoming tickets, retrieves relevant knowledge-base information, drafts high-quality responses, and determines whether the issue can be auto-resolved or needs escalation. An Evaluator Agent enforces compliance, tone, and policy checks, and a Human-in-the-Loop (HITL) workflow ensures enterprise-grade safety and reliability.
 The entire system runs fully offline using deterministic tools, but can be upgraded easily to use Gemini 1.5 Pro / Flash for real deployments.
 
-✨ Key Features
-🔹 Multi-Agent Architecture
-Planner Agent: Decomposes tasks and orchestrates the workflow.
+**✨ Key Features**
+**🔹 Multi-Agent Architecture**
+**Planner Agent**: Decomposes tasks and orchestrates the workflow.
 
 
-Classifier Worker: Detects intent (billing, technical, product, etc.) and severity.
+**Classifier Worker:** Detects intent (billing, technical, product, etc.) and severity.
 
 
-Draft Worker: Generates templated or Gemini-assisted responses based on KB retrieval.
+**Draft Worker:** Generates templated or Gemini-assisted responses based on KB retrieval.
 
 
-Routing Worker: Decides whether to auto-resolve or escalate to human support teams.
+**Routing Worker:** Decides whether to auto-resolve or escalate to human support teams.
 
 
-Evaluator Agent: Scores accuracy, compliance, sentiment, and policy alignment.
+**Evaluator Agent:** Scores accuracy, compliance, sentiment, and policy alignment.
 
 
 
-🔹 Enterprise-Ready Workflows
+**🔹 Enterprise-Ready Workflows**
 Automatic triage of customer support tickets
 
 
@@ -60,7 +60,7 @@ project/
   requirements.txt
 
 
-🔹 Built for Extensibility
+**🔹 Built for Extensibility**
 Swap in Gemini 1.5 Pro / Flash for reasoning, drafting, or classification
 
 
@@ -74,7 +74,7 @@ Upgrade knowledge base using FAISS / Chroma
 
 
 
-🧠 How It Works
+**🧠 How It Works**
 User submits a support ticket
 
 
@@ -100,7 +100,7 @@ Final response is returned or escalated appropriately
 
 
 
-🧰 Technologies Used
+**🧰 Technologies Used**
 Python 3.x
 
 
@@ -120,7 +120,7 @@ Modular Multi-Agent Framework designed from scratch
 
 
 
-🎯 Use Cases
+**🎯 Use Cases**
 Automating enterprise helpdesk / support centers
 
 
@@ -137,7 +137,7 @@ Demonstrating multi-agent systems for research or portfolio projects
 
 
 
-🧪 Demo & Testing
+**🧪 Demo & Testing**
 You can run the bot directly with:
 from project.main_agent import run_agent
 print(run_agent("Hello, I need help with a billing issue."))
@@ -146,15 +146,15 @@ Or launch the Gradio web interface:
 python project/app.py
 
 
-📦 Installation & Setup
+**📦 Installation & Setup**
 pip install -r project/requirements.txt
 export GOOGLE_API_KEY="your_gemini_key_here"
 
 
-🤝 Contributing
+**🤝 Contributing**
 Pull requests are welcome! For major changes, please open an issue first to discuss the update.
 
-⭐ If you use this project…
+**⭐ If you use this project…**
 Give it a star on GitHub to support the repository! 🌟
 
 
